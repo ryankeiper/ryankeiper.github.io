@@ -37,8 +37,8 @@ nav li a:hover {
 }
 
 .home {
-	background-color: rgba(0,0,0,.5);
-	color: rgba(240,240,240,1);
+	/*background-color: rgba(0,0,0,.5);*/
+	color: darkblue;
 	position: absolute;
 	top: 5vh;
 	left: 15vw;
@@ -70,9 +70,10 @@ h2 {
 }
 
 .portrait {
-	float: left;
-	height: 200px;
-	width: 132px;
+	/*float: left;*/
+	margin: 0 auto;
+	height: 300px;
+	width: 200px;
 	background: url("./images/me.png") no-repeat center top;
 	background-size: cover;
 	/*position: absolute;*/
@@ -84,8 +85,9 @@ h2 {
 .about,
 .contact {
 	position: absolute;
-	background-color: rgba(0,0,0,.5);
-	color: rgba(240,240,240,1);
+	/*background-color: rgba(0,0,0,.5);*/
+	/*color: rgba(240,240,240,1);*/
+	color: darkblue;
 	font-size: 24px;
 	font-family: 'Berkshire Swash', cursive;
 	display: none;
