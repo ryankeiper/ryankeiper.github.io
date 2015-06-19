@@ -36,18 +36,6 @@ nav li a:hover {
 	cursor: pointer;
 }
 
-.work {
-	background-color: red;
-}
-
-.about {
-	background-color: green;
-}
-
-.contact {
-	background-color: blue;
-}
-
 .home {
 	background-color: rgba(0,0,0,.5);
 	color: rgba(240,240,240,1);
@@ -65,8 +53,20 @@ h2 {
 	font-size: 40px;
 }
 
-p {
-	margin-right: 50px;
+.work div h2 {
+	font-size: 24px;
+}
+
+.work div p {
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.gunsnrocks,
+.chesscompanion,
+.techleap {
+	height: auto;
+	width: 300px;
 }
 
 .portrait {
@@ -84,11 +84,29 @@ p {
 .about,
 .contact {
 	position: absolute;
+	background-color: rgba(0,0,0,.5);
+	color: rgba(240,240,240,1);
+	font-size: 24px;
+	font-family: 'Berkshire Swash', cursive;
+	display: none;
+}
+
+.work {
+	top: 5vh;
+	height: 80vh;
+	width: 100vw;
+}
+
+.about {
 	top: 75vh;
 	height: 100px;
 	width: 100vw;
-	display: none;
-	opacity: .5;
+}
+
+.contact {
+	top: 75vh;
+	height: 100px;
+	width: 100vw;
 }
 
 @media (max-width: 700px) {
