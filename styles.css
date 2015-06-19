@@ -49,8 +49,18 @@ nav li a:hover {
 	font-family: 'Berkshire Swash', cursive;
 }
 
+.home p {
+	color: black;
+	font-family: 'Quattrocento', serif;
+	font-size: 20px;
+}
+
 h2 {
 	font-size: 40px;
+}
+
+.work div {
+	text-align: center;
 }
 
 .work div h2 {
@@ -59,7 +69,8 @@ h2 {
 
 .work div p {
 	font-size: 20px;
-	font-family: Helvetica, sans-serif;
+	color: black;
+	font-family: 'Quattrocento', serif;
 }
 
 .gunsnrocks,
@@ -82,7 +93,6 @@ h2 {
 }
 
 .work,
-.about,
 .contact {
 	position: absolute;
 	/*background-color: rgba(0,0,0,.5);*/
@@ -94,22 +104,23 @@ h2 {
 }
 
 .work {
+	text-align: center;
 	top: 5vh;
 	height: 80vh;
 	width: 100vw;
 }
 
-.about {
-	top: 10vh;
-	left: 25vw;
-	height: 100px;
-	width: 50vw;
-}
-
 .contact {
-	top: 75vh;
+	top: 5vh;
 	height: 100px;
 	width: 100vw;
+	text-align: center;
+}
+
+.contact p {
+	line-height: 20px;
+	font-family: 'Quattrocento', serif;
+	color: black;
 }
 
 @media (max-width: 700px) {

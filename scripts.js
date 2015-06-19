@@ -3,7 +3,6 @@ $(document).ready(function(){
 		event.preventDefault();
 		$(".home").hide();
 		$(".work").hide();
-		$(".about").hide();
 		$(".contact").hide();
 	})
 
@@ -13,10 +12,6 @@ $(document).ready(function(){
 
 	$(".work-link").click(function(){
 		$(".work").fadeToggle();
-	})
-
-	$(".about-link").click(function(){
-		$(".about").fadeToggle();
 	})
 
 	$(".contact-link").click(function(){
