@@ -1,6 +1,6 @@
 body {
-	background-color: #F9F9F9;
-	background: url("./images/prague.jpg") no-repeat center center fixed;
+	background-color: lightblue;
+	/*background: url("./images/prague.jpg") no-repeat center center fixed;*/
 	background-size: cover;
 }
 
@@ -98,9 +98,10 @@ h2 {
 }
 
 .about {
-	top: 75vh;
+	top: 10vh;
+	left: 25vw;
 	height: 100px;
-	width: 100vw;
+	width: 50vw;
 }
 
 .contact {
