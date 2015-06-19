@@ -1,5 +1,17 @@
+body {
+	background-color: #F9F9F9;
+	background: url("./images/prague.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.main {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
 nav {
-	background-color: #EEEEEE;
+	background-color: rgba(240,240,240,.5);
 }
 
 nav ul {
@@ -12,12 +24,75 @@ nav li {
 	margin: 30px;
 }
 
-nav li a {
+nav li a,
+nav li a:focus {
 	text-decoration: none;
-	color: gray;
+	color: #777;
 }
 
 nav li a:hover {
 	text-decoration: none;
 	color: black;
+	cursor: pointer;
+}
+
+.work {
+	background-color: red;
+}
+
+.about {
+	background-color: green;
+}
+
+.contact {
+	background-color: blue;
+}
+
+.home {
+	background-color: rgba(0,0,0,.5);
+	color: rgba(240,240,240,1);
+	position: absolute;
+	top: 5vh;
+	left: 15vw;
+	height: 200px;
+	width: 70vw;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p {
+	margin-right: 50px;
+}
+
+.portrait {
+	float: left;
+	height: 200px;
+	width: 132px;
+	background: url("./images/me.png") no-repeat center top;
+	background-size: cover;
+	/*position: absolute;*/
+	border: 5px solid #CCC;
+	border-radius: 20%;
+}
+
+.work,
+.about,
+.contact {
+	position: absolute;
+	top: 75vh;
+	height: 100px;
+	width: 100vw;
+	display: none;
+	opacity: .5;
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    text-align: center;
+  }
 }
